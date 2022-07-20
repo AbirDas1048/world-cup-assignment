@@ -30,6 +30,14 @@ header .header-content h1 {
     font-size: 70px;
     margin-bottom: 20px;
     line-height: 80px;
+    transition: color 2s, transform 4s;
+
+
+}
+
+header h1:hover {
+    color: #DD0000;
+    transform: rotateY(360deg);
 }
 
 header .header-content p {
@@ -193,6 +201,42 @@ footer ul li {
     font-weight: 500;
     font-size: 16px;
     margin: 0 30px;
+}
+
+footer .social-media-link {
+    max-width: 300px;
+    margin: 10px auto;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer .social-media-link p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+footer .social-media-link ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer .social-media-link ul li {
+    margin: 0 10px;
+}
+
+footer .social-media-link ul li a {
+    text-decoration: none;
+}
+
+footer .social-media-link ul li a i {
+    color: #161616;
+    background-color: #ffffff;
+    padding: 3px 5px;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 
