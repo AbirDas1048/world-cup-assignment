@@ -138,18 +138,19 @@ main #matches .match {
     height: 242px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
-    padding: 53px 30px 0;
+    padding: 0 30px;
     /* padding-top: 53px; */
 }
 
-/* main #matches .match .description {
+main #matches .match .description {
     max-width: 252px;
     margin: 0 auto;
-} */
+    margin-top: 53px;
+}
 
-/* main #blogs .blog .blog-image img {
+main #blogs .blog .blog-image img {
     width: 100%;
-} */
+}
 
 main #matches .match .images {
     display: grid;
@@ -404,6 +405,7 @@ footer .social-media-link ul li a i {
         border-radius: 5px;
         margin: 0 auto;
         margin-top: 50px;
+        cursor: pointer;
     }
 
     footer {
