@@ -119,18 +119,82 @@ main #blogs {
     row-gap: 24px;
 }
 
+main #matches {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
 main #blogs .blog {
-    height: 362px;
+    /* height: 362px; */
     border: 1px solid #E8E8E8;
     border-radius: 10px;
 }
 
-main #blogs .blog .blog-image img {
+main #matches .match {
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 53px 30px 0;
+    /* padding-top: 53px; */
+}
+
+/* main #matches .match .description {
+    max-width: 252px;
+    margin: 0 auto;
+} */
+
+/* main #blogs .blog .blog-image img {
     width: 100%;
+} */
+
+main #matches .match .images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* main #matches .match .images .flag {
+    width: 40%;
+} */
+
+main #matches .match .images .flag img {
+    width: 100%;
+}
+
+main #matches .match .images p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #161616;
 }
 
 main #blogs .blog-content {
     padding: 20px;
+}
+
+main #matches .match-content {
+    text-align: center;
+}
+
+main #matches .match-content .teams {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    margin-bottom: 10px;
+}
+
+main #matches .match-content .time {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
 }
 
 main #blogs .blog-content a {
@@ -318,6 +382,16 @@ footer .social-media-link ul li a i {
         display: none;
     }
 
+    main #matches {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    main #matches .match:nth-child(n+7) {
+        display: none;
+    }
+
     main .view-all {
         display: block;
         font-family: 'Poppins', sans-serif;
@@ -429,6 +503,15 @@ footer .social-media-link ul li a i {
     }
 
     main #blogs .blog:nth-child(n+7) {
+        display: none;
+    }
+
+    main #matches {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 16px;
+    }
+
+    main #matches .match:nth-child(n+7) {
         display: none;
     }
 
