@@ -13,7 +13,7 @@ header {
     box-sizing: border-box;
     max-width: 1320px;
     margin: 50px auto 0;
-    background-color: #161616;
+    background-color: #55AA88;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@ header .header-content h1 {
 }
 
 header h1:hover {
-    color: #DD0000;
+    color: #A2B3D3;
     transform: rotateY(360deg);
 }
 
@@ -55,7 +55,7 @@ header .header-content button {
     font-weight: 400;
     font-size: 20px;
     padding: 15px 25px;
-    background-color: #DD0000;
+    background-color: #A2B3D3;
     border: 0;
     border-radius: 5px;
     cursor: pointer;
@@ -91,7 +91,7 @@ main aside {
     min-width: 312px;
     display: flex;
     flex-direction: column;
-    background-color: #161616;
+    background-color: #55AA88;
     border-radius: 10px;
     padding: 0 30px 30px;
     height: 312px;
@@ -112,7 +112,7 @@ main aside a {
 }
 
 main aside .active {
-    background-color: #DD0000;
+    background-color: #A2B3D3;
     color: #FFFFFF;
 }
 
@@ -245,7 +245,7 @@ main .view-all {
 /* footer section css start */
 
 footer {
-    background-color: #161616;
+    background-color: #55AA88;
     padding: 130px 0;
 }
 
@@ -272,7 +272,7 @@ footer ul {
 
 footer ul li {
     list-style: none;
-    color: #B9B9B9;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -308,7 +308,7 @@ footer .social-media-link ul li a {
 }
 
 footer .social-media-link ul li a i {
-    color: #161616;
+    color: #55AA88;
     background-color: #ffffff;
     padding: 3px 5px;
     font-size: 20px;
@@ -416,7 +416,7 @@ footer .social-media-link ul li a i {
         font-size: 20px;
         color: #ffffff;
         padding: 12px 30px;
-        background-color: #DD0000;
+        background-color: #A2B3D3;
         border: 0;
         border-radius: 5px;
         margin: 0 auto;
