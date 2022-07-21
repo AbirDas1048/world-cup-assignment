@@ -7,6 +7,8 @@ body {
     background-color: #ffffff;
 }
 
+/* header css start */
+
 header {
     box-sizing: border-box;
     max-width: 1320px;
@@ -73,6 +75,10 @@ header .header-image img {
     display: block;
 }
 
+/* header css end */
+
+/* main css start */
+
 main {
     max-width: 1320px;
     margin: 130px auto;
@@ -110,6 +116,8 @@ main aside .active {
     color: #FFFFFF;
 }
 
+/* main blog section css start */
+
 main #blogs {
     box-sizing: border-box;
     display: grid;
@@ -119,83 +127,17 @@ main #blogs {
     row-gap: 24px;
 }
 
-main #matches {
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    column-gap: 24px;
-    row-gap: 24px;
-}
-
 main #blogs .blog {
-    /* height: 362px; */
     border: 1px solid #E8E8E8;
     border-radius: 10px;
-}
-
-main #matches .match {
-    height: 242px;
-    border: 1px solid #E8E8E8;
-    border-radius: 10px;
-    padding: 0 30px;
-    /* padding-top: 53px; */
-}
-
-main #matches .match .description {
-    max-width: 252px;
-    margin: 0 auto;
-    margin-top: 53px;
 }
 
 main #blogs .blog .blog-image img {
     width: 100%;
 }
 
-main #matches .match .images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-/* main #matches .match .images .flag {
-    width: 40%;
-} */
-
-main #matches .match .images .flag img {
-    width: 100%;
-}
-
-main #matches .match .images p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-    color: #161616;
-}
-
 main #blogs .blog-content {
     padding: 20px;
-}
-
-main #matches .match-content {
-    text-align: center;
-}
-
-main #matches .match-content .teams {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #161616;
-    margin-bottom: 10px;
-}
-
-main #matches .match-content .time {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #4D4D4D;
 }
 
 main #blogs .blog-content a {
@@ -229,9 +171,78 @@ main #blogs .blog-duration span {
     color: rgba(22, 22, 22, 0.7);
 }
 
+/* main blog section css end */
+
+/* main match section css start */
+
+main #matches {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+main #matches .match {
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 0 30px;
+}
+
+main #matches .match .description {
+    max-width: 252px;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+
+main #matches .match .images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+main #matches .match .images .flag img {
+    width: 100%;
+}
+
+main #matches .match .images p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #161616;
+}
+
+main #matches .match-content {
+    text-align: center;
+}
+
+main #matches .match-content .teams {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    margin-bottom: 10px;
+}
+
+main #matches .match-content .time {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+}
+
+/* main match section css end */
+
+
 main .view-all {
     display: none;
 }
+
+/* footer section css start */
 
 footer {
     background-color: #161616;
@@ -304,6 +315,9 @@ footer .social-media-link ul li a i {
     border-radius: 5px;
 }
 
+/* footer section css end */
+
+/* for small monitor */
 
 @media screen and (max-width: 1200px) and (min-width: 993px) {
 
@@ -317,6 +331,8 @@ footer .social-media-link ul li a i {
     }
 
 }
+
+/* for tablet */
 
 @media screen and (max-width: 993px) and (min-width: 767px) {
     header {
@@ -422,9 +438,7 @@ footer .social-media-link ul li a i {
     }
 
     footer ul {
-        /* display: flex; */
         flex-flow: row wrap;
-        /* justify-content: center; */
     }
 
     footer ul li {
@@ -434,6 +448,8 @@ footer .social-media-link ul li a i {
     }
 
 }
+
+/* for mini tablet and mobile device */
 
 @media screen and (max-width: 767px) {
 
